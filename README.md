@@ -9,7 +9,7 @@ Daniel P. Friedman and Matthias Felleisen.
 * [x] Read Chapter 1: Toys
 * [x] Read Chapter 2: Do It, Do It Again, and Again, and Again...
 * [x] Read Chapter 3: Cons the Magnificent
-* [ ] Read Chapter 4: Numbers Games
+* [x] Read Chapter 4: Numbers Games
 * [ ] Read Chapter 5: \*Oh My Gawd\*: It's Full of Stars
 * [ ] Read Chapter 6: Shadows
 * [ ] Read Chapter 7: Friends and Relations
