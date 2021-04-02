@@ -11,6 +11,7 @@ Are you rested?
 * **or** evaluates two questions, one at a time. If either is #t, it returns #t.
 
 *lat?* looks at each S-expression in a list, in turn, and asks if each S-expression is an atom, until it runs out of S-expressions. If it runs out without encountering a list, the value is #t. If it finds a list, the value is #f--false.
+
 ```Scheme
 (define lat? ; see page 16
   (lambda (l)
@@ -24,6 +25,7 @@ Are you rested?
 ```
 
 *member?* looks at each atom in a list of atoms and returns true if it finds an atom matching your search. If it runs out without encountering your search term, it returns #f.
+
 ```Scheme
 (define member? ; see page 22
   (lambda (a lat)
@@ -34,6 +36,9 @@ Are you rested?
         (or (eq? a (car lat))
             (member? a (cdr lat)))))))
 ```
+
 The First Commandment: (preliminary) always ask *null?* as the first question in expressing any function.
+
+---
 
 Do you believe all this? Then you may rest!

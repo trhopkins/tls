@@ -8,7 +8,7 @@ Daniel P. Friedman and Matthias Felleisen.
 
 * [x] Read Chapter 1: Toys
 * [x] Read Chapter 2: Do It, Do It Again, and Again, and Again...
-* [ ] Read Chapter 3: Cons the Magnificent
+* [x] Read Chapter 3: Cons the Magnificent
 * [ ] Read Chapter 4: Numbers Games
 * [ ] Read Chapter 5: \*Oh My Gawd\*: It's Full of Stars
 * [ ] Read Chapter 6: Shadows
@@ -19,7 +19,8 @@ Daniel P. Friedman and Matthias Felleisen.
 
 ## Resources
 
-* [The Little Schemer](https://mitpress.mit.edu/books/little-schemer-fourth-edition)
+* [The Little Schemer official site](https://mitpress.mit.edu/books/little-schemer-fourth-edition)
+* [The Little Schemer as a pdf](https://7chan.org/pr/src/The_Little_Schemer_4th_2.pdf)
 * [Scheme source code](https://github.com/pkrumins/the-little-schemer)
 * [The Little Schemer on Amazon](https://www.amazon.com/Little-Schemer-Daniel-P-Friedman/dp/0262560992)
 
@@ -35,31 +36,31 @@ Daniel P. Friedman and Matthias Felleisen.
 
 ## The Ten Commandments
 
-1. When recurring on a list of atoms, *lat*, ask two questions about it:
+1. When recurring on a list of atoms, *lat,* ask two questions about it:
     * (*null?  lat*) and
-    * **else**.
+    * **else.**
 
-   When recurring on a number, *n*, ask two questions about it:
+   When recurring on a number, *n,* ask two questions about it:
     * (*zero? n*) and
-    * **else**.
+    * **else.**
 
-   When recurring on a list of S-expressions, *l*, ask three
+   When recurring on a list of S-expressions, *l,* ask three
    questions about it:
     * (*null? l*),
     * (*atom?* (*car l*)),
-    * and **else**.
+    * and **else.**
 2. Use *cons* to build lists.
 3. When building a list, describe the first typical element, and then *cons* it
    onto the natural recursion.
 4. Always change at least one argument while recurring. When recurring on a
-   list of atoms, *lat*, use (*cdr lat*). When recurring on a number, *n*, use
+   list of atoms, *lat,* use (*cdr lat*). When recurring on a number, *n,* use
    (*sub1 n*). When recurring on a list of S-expressions, *l,* use (*car l*)
    and (*cdr l*) if neither (*null? l*) nor (*atom?* (*car l*)) are true.
 
    It must be changed to be closer to termination. The changing argument must
    be tested in the termination condition:
-    * when using *cdr*, test termination with *null?* and
-    * when using *sub1*, test termination with *zero?*.
+    * when using *cdr,* test termination with *null?* and
+    * when using *sub1,* test termination with *zero?.*
 5. When building a value with +, always use 0 for the value of the termination
    line, for adding 0 does not change the value of an addition.
 
@@ -76,11 +77,6 @@ Daniel P. Friedman and Matthias Felleisen.
 9. Abstract common patterns with a new function.
 10. Build functions to collect more than one value at a time.
 
-```
-.----------------------------------------------------------------------------.
-|                                                                            |
-|                          This space reserved for                           |
-|                               JELLY STAINS!                                |
-|                                                                            |
-'----------------------------------------------------------------------------'
-```
+---
+
+This space reserved for JELLY STAINS!
