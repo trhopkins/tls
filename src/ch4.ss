@@ -11,6 +11,8 @@
 ;; Compare atoms with eq?, and numbers with o= (different).
 ;; number? returns true if an atom is actually a number.
 
+(load "ch3.ss")
+
 ;; page xiii
 (define add1 ; primitive increment
   (lambda (n)
@@ -254,5 +256,5 @@
       ((one? n)
         (cdr lat))
       (else
-        (cons (car lat) (rempick (sub1 n) (cdr lat)))))))
+        (cons (car lat) (new-rempick (sub1 n) (cdr lat)))))))
 

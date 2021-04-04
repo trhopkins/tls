@@ -10,6 +10,8 @@
 ;; **else** is a question which is always true.
 ;; **or** evaluates two questions, one at a time. If either is #t, return #t
 
+(load "ch1.ss")
+
 ;; page 16
 (define lat? ; if l is a list of atoms, return #t
   (lambda (l)

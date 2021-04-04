@@ -12,6 +12,8 @@
 ;; The Second Commandment
 ;; Use cons to build lists.
 
+(load "ch2.ss")
+
 ;; page 36
 (define rember ; remove member from list
   (lambda (a lat)
