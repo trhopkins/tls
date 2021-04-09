@@ -29,7 +29,7 @@
     (cond
       ((null? lat) #f)
       (else
-        (or (eq? a (car lat))
+        (or (equal? a (car lat)) ; p. 111, previously eq?
             (member? a (cdr lat)))))))
 
 ;; The First Commandment (Preliminary)

@@ -146,10 +146,9 @@
       ((null? l)
         #f)
       ((atom? (car l))
-        (cond
-          (or ; tadaah
-            (eq? a (car l))
-            (alt-member* a (cdr l)))))
+        (or ; tadaah
+          (eq? a (car l))
+          (alt-member* a (cdr l))))
       (else
         (or
           (alt-member* a (car l))
@@ -164,6 +163,7 @@
       (else
         (leftmost (car l))))))
 
+#|
 ;; page 92
 #; (define eqlist?
   (lambda (l1 l2)
@@ -190,6 +190,7 @@
         (and
           (eqlist? (car l1) (car l2))
           (eqlist? (cdr l1) (car l2)))))))
+|#
 
 ;; page 92
 (define equal? ; compare two S-expressions
@@ -251,3 +252,4 @@
       (else
         (cons (car l)
               (rember s (cdr l)))))))
+

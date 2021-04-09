@@ -99,11 +99,11 @@
     (cond
       ((null? lat)
         (quote ()))
-      ((eq? a (car lat))
+      ((equal? a (car lat)) ; page 113, previously eq?
         (multi-rember a (cdr lat)))
       (else
         (cons (car lat)
-              (rember a (cdr lat)))))))
+              (multi-rember a (cdr lat)))))))
 
 ;; page 56
 (define multi-insertR ; insert new to the left of every old
@@ -151,3 +151,4 @@
       (else
         (cons (car lat)
               (multi-subst new old (cdr lat)))))))
+
