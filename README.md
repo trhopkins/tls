@@ -11,9 +11,9 @@ Daniel P. Friedman and Matthias Felleisen.
 * [x] Read Chapter 3: Cons the Magnificent
 * [x] Read Chapter 4: Numbers Games
 * [x] Read Chapter 5: \*Oh My Gawd\*: It's Full of Stars!
-* [ ] Read Chapter 6: Shadows
-* [ ] Read Chapter 7: Friends and Relations
-* [ ] Read Chapter 8: Lambda the Ultimate
+* [x] Read Chapter 6: Shadows
+* [x] Read Chapter 7: Friends and Relations
+* [x] Read Chapter 8: Lambda the Ultimate
 * [ ] Read Chapter 9: ...and Again, and Again, and Again...
 * [ ] Read Chapter 10: What is the Value of All of This?
 
