@@ -93,7 +93,7 @@
 
 ;; page 108
 (define sero?
-  (lambda (ln) ; list representation of a number, see page 107
+  (lambda (ln) ; list representation of a number, page 107
     (null? ln)))
 
 ;; page 108

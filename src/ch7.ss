@@ -141,7 +141,7 @@
         (intersect (car l-set) (intersectall (cdr l-set)))))))
 
 ;; page 118
-(define a-pair? ; my solution
+(define a-pair? ; my solution. Pair of atoms?
   (lambda (l)
       (o= (length l) 2)))
 
@@ -235,25 +235,25 @@
     (fun? (revrel fun))))
 
 ;; page 123
-#; (define cookies ; if it doesn't compile, use your imagination
-  (lambda ()
-    (bake ; will this have side effects?
-      (quote (350 degrees))
-      (quote 12 minutes))
-    (mix
-      (quote (walnuts 1 cup))
-      (quote (chocolate-chips 16 ounces))
-      (mix
-        (mix
-          (quote (flour 2 cups))
-          (quote (oatmeal 2 cups))
-          (quote (salt .5 teaspoons))
-          (quote (baking-powder 1 teaspoon))
-          (quote (baking-soda 1 teaspoon)))
-        (mix
-          (quote (eggs 2 large))
-          (quote (vanilla 1 teaspoon))
-          (cream
-            (quote (butter 1 cup))
-            (quote sugar 2 cups)))))))
+;(define cookies ; if it doesn't compile, use your imagination
+  ;(lambda ()
+    ;(bake ; will this have side effects?
+      ;(quote (350 degrees))
+      ;(quote (12 minutes))
+    ;(mix
+      ;(quote (walnuts 1 cup))
+      ;(quote (chocolate-chips 16 ounces))
+      ;(mix
+        ;(mix
+          ;(quote (flour 2 cups))
+          ;(quote (oatmeal 2 cups))
+          ;(quote (salt .5 teaspoons))
+          ;(quote (baking-powder 1 teaspoon))
+          ;(quote (baking-soda 1 teaspoon)))
+        ;(mix
+          ;(quote (eggs 2 large))
+          ;(quote (vanilla 1 teaspoon))
+          ;(cream
+            ;(quote (butter 1 cup))
+            ;(quote sugar 2 cups)))))))
 
