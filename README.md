@@ -14,8 +14,8 @@ Daniel P. Friedman and Matthias Felleisen.
 * [x] Read Chapter 6: Shadows
 * [x] Read Chapter 7: Friends and Relations
 * [x] Read Chapter 8: Lambda the Ultimate
-* [ ] Read Chapter 9: ...and Again, and Again, and Again...
-* [ ] Read Chapter 10: What is the Value of All of This?
+* [x] Read Chapter 9: ...and Again, and Again, and Again...
+* [x] Read Chapter 10: What is the Value of All of This?
 
 ## Resources
 
